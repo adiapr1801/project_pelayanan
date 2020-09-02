@@ -1,0 +1,73 @@
+@media print { body { -webkit-print-color-adjust: exact; } }
+.container{width:19cm;
+    height:29cm;
+    margin:auto;
+    background:white;
+    padding:2cm;}
+.vertical{
+    width:100%;
+    float: left;
+    margin-bottom:5px;
+}
+.headerkanan{
+    width:48%;
+    float:left;
+}
+.headerkiri{
+    width:48%;
+    float:left;
+}
+.headerkiri span{margin-top:10px;}
+.request{
+    width:85%;
+    padding:3px;
+    border:2px solid;
+    font-family: Calibri;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+}
+.alamat{margin:5px 0px;
+        font-size: 14px;
+            }
+.konten{width:100%;
+    margin-bottom:10px;
+    float: left;
+}
+.kotakhitam{
+    padding:5px 20px;
+    width: 94%;
+    background:#000000;
+    float: left;
+    font-weight: bold;
+    color:white;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    border-left:solid 2px black;
+    border-right:solid 2px black;
+}
+.kotakputih{
+    padding:5px 20px;
+    width: 94%;
+    background:#ffffff;
+    float: left;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    border-left:solid 2px black;
+    border-right:solid 2px black;
+}
+.kanan{
+    width:15%;
+    float: left;
+    font-weight: bold;
+}
+.kiri{
+    width:85%;
+    float: left;
+}
+.jasa{width:24%;
+    border:1px solid black;
+    float:left;
+    padding:5px 0px;
+    text-align: center;
+    font-weight: bold;}
